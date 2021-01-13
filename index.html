@@ -17,7 +17,29 @@
 					<section class="intro">
 						<header>
 							<h1><i class="icon solid fa-chart-pie"></i>Webadilla</h1>
-							<p>Get your slice.</br>One free month of business Internet & phone service</p>
+							<p>Get your slice.</br>One free month of business Internet & phone service, every year.</p>
+							<style>
+							#div1 {
+							  font-size:48px;
+							}
+							</style>
+
+							<body>
+
+							<div id="div1" class="fa"></div>
+
+							<script>
+							function downarrow() {
+							  var a;
+							  a = document.getElementById("div1");
+							  a.innerHTML = "&#xf107;";
+							  setTimeout(function () {
+							      a.innerHTML = "&#xf103;";
+							    }, 1000);
+							}
+							downarrow();
+							setInterval(downarrow, 2000);
+							</script>
 						</header>
 					</section>
 
@@ -25,13 +47,14 @@
 					<section>
 						<header>
 							<h2>How it works</h2>
+
 						</header>
 						<div class="content">
 							<p><strong>Webadilla</strong> uses wholesale discounts to reduce your business' telecom bill when you switch providers. It's easy and free.</p>
 							<ul class="feature-icons">
 								<li class="icon solid fa-funnel-dollar">Ongoing rebates from Webadilla to your business</li>
 								<li class="icon solid fa-map-marker-alt">Service & billing directly from local providers you trust</li>
-								<li class="icon solid fa-cog">Choice of monthly or annual discounts</li>
+								<li class="icon solid fa-cog">Choice of monthly or annual rebates</li>
 								<li class="icon solid fa-search-dollar">Free emailed quotes from 100+ partnering providers</li>
 								<li class="icon solid fa-bell-slash">No unwanted sales calls - ever</li>
 								<li class="icon solid fa-smile">Refer a friend for additional savings</li>
